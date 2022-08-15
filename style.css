@@ -254,6 +254,7 @@ nav .tryFree{
 .testimonials{
     padding: 50px;
     text-align: center;
+    border-top: 1px solid #348693;
 }
 
 .testimonials h2{
@@ -288,4 +289,42 @@ nav .tryFree{
     border-radius: 12px;
     margin-top: 50px;
     cursor: pointer;
+}
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0 ,1fr));
+    padding: 50px;
+    gap: 40px;
+    border-top: 3px solid #348693;
+
+
+}
+.footer p{
+    line-height: 30px;
+    padding: 10px 0;
+    font-size: 14px;
+    
+}
+
+.footer span{
+    color: #348693;
+    font-weight: 600;
+}
+
+
+.footer h4{
+    color: #348693;
+    font-size: 20px;
+}
+.footer li{
+    padding: 10px 0;
+    color: #828282;
+    cursor: pointer;
+}
+.footer li:hover{
+    color: #4a4a4a;
+    font-weight: 500;
 }
