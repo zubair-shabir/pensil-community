@@ -20,6 +20,9 @@ nav{
     align-items: center;
     padding: 10px 20px;
     background: #D4E9FF;
+    overflow: visible;
+    position: fixed;
+    width: 100%;
 }
 nav div,nav ul{
     display: flex;
@@ -31,6 +34,7 @@ nav div,nav ul{
 nav li{
     list-style: none;
     cursor: pointer;
+    color: #348693;
     
 }
 
@@ -41,15 +45,16 @@ nav .expand-arrow{
 nav button{
     padding: 10px 10px;
     border-radius: 12px;
-    border: 1px solid #0445FE;
-    color: #0445FE;
+    border: 1px solid #348693;
+    color: #348693;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
 }
 nav .tryFree{
-    background: #0445FE;
+    background: #348693;
     color: #fff;
+    margin-right: 40px;
 }
 
 
@@ -62,7 +67,7 @@ nav .tryFree{
 
 .case-categories,.resources-categories{
     position: absolute;
-    top: 70px;
+    top:70px;
     list-style-type: none;
     padding: 10px;
     margin: 0px;
@@ -92,7 +97,7 @@ nav .tryFree{
 
   .hero-section{
     display: grid;
-    margin: 50px;
+    margin: 100px  50px 50px;
     gap: 70px;
     grid-template-columns: repeat(2, minmax(0 ,1fr));
     
